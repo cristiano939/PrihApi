@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -35,8 +36,8 @@ namespace PrihApi.Controllers
                     Address = barRequest.Address,
                     Chopp = barRequest.Chopp == "Sim" ? true : false,
                     CraftBeer = barRequest.CraftBeer == "Sim" ? true : false,
-                    Lat = double.Parse(barRequest.Lat.Replace(".", ",")),
-                    Long = double.Parse(barRequest.Long.Replace(".", ",")),
+                    Lat = double.Parse(barRequest.Lat.Replace(",", "."), CultureInfo.InvariantCulture),
+                    Long = double.Parse(barRequest.Long.Replace(",", "."), CultureInfo.InvariantCulture),
                     Name = barRequest.Name
                 };
                 return Ok(barData);
