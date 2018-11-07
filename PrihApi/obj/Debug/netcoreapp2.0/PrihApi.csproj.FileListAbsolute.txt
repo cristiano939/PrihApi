@@ -3,7 +3,6 @@ C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.runtim
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.runtimeconfig.dev.json
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.dll
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.pdb
-C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.csprojAssemblyReference.cache
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.csproj.CoreCompileInputs.cache
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.AssemblyInfoInputs.cache
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.AssemblyInfo.cs
