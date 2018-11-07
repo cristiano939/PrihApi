@@ -26,7 +26,7 @@ namespace PrihApi.Controllers
 
         [HttpPost]
         [Route("InsertBar")]
-        public StatusCodeResult InsertBar([FromBody] BarRequest barRequest)
+        public ActionResult InsertBar([FromBody] BarRequest barRequest)
         {
             try
             {
@@ -39,6 +39,7 @@ namespace PrihApi.Controllers
                     Long = double.Parse(barRequest.Long.Replace(".", ",")),
                     Name = barRequest.Name
                 };
+                return Ok(barData);
                 _prihDB.InsertBar(barData);
                 return new StatusCodeResult(200);
             }
