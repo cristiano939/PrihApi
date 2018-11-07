@@ -3,7 +3,4 @@
 ################################################################################
 
 /.vs/PrihApi/v15
-/PrihApi/obj/Debug/netcoreapp2.0
-/.vs/config/applicationhost.config
-/PrihApi/bin/Debug/netcoreapp2.0
-/.vs/PrihApi/DesignTimeBuild
+
