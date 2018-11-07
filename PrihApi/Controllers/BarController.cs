@@ -57,8 +57,8 @@ namespace PrihApi.Controllers
         {
             try
             {
-                var lat = double.Parse(latitude.Replace(",", "."));
-                var lng = double.Parse(longitude.Replace(",", "."));
+                var lat = double.Parse(latitude.Replace(",", "."), CultureInfo.InvariantCulture);
+                var lng = double.Parse(longitude.Replace(",", "."), CultureInfo.InvariantCulture);
                 var nearbyBars = _prihDB.GetNearbyBarData(lat, lng);
                 if (nearbyBars.Count > 0)
                 {

@@ -73,6 +73,29 @@
           "lib/netstandard1.6/Lime.Protocol.dll": {}
         }
       },
+      "Lime.Protocol.Serialization/0.7.278": {
+        "type": "package",
+        "dependencies": {
+          "Lime.Protocol": "0.7.278",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Lime.Protocol.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Lime.Protocol.Serialization.dll": {}
+        }
+      },
+      "Lime.Protocol.Serialization.ServiceStack/0.7.28-beta": {
+        "type": "package",
+        "dependencies": {
+          "Lime.Protocol": "0.7.28-beta",
+          "NETStandard.Library": "1.6.0",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        }
+      },
       "Lime.Transport.Tcp/0.8.53-beta": {
         "type": "package",
         "dependencies": {
@@ -5173,6 +5196,26 @@
         "lib/netstandard1.6/Lime.Protocol.xml",
         "lime.protocol.0.8.63-beta.nupkg.sha512",
         "lime.protocol.nuspec"
+      ]
+    },
+    "Lime.Protocol.Serialization/0.7.278": {
+      "sha512": "supld9YvKoq1AXaZZa4fzw1Nm3KW0ZXNvfh2Jh4E2CIA9GffMm/4ikNCubiRwAwwQmiyOEo2DqfQJLj5s0B5GA==",
+      "type": "package",
+      "path": "lime.protocol.serialization/0.7.278",
+      "files": [
+        "lib/net461/Lime.Protocol.Serialization.dll",
+        "lib/netstandard1.6/Lime.Protocol.Serialization.dll",
+        "lime.protocol.serialization.0.7.278.nupkg.sha512",
+        "lime.protocol.serialization.nuspec"
+      ]
+    },
+    "Lime.Protocol.Serialization.ServiceStack/0.7.28-beta": {
+      "sha512": "QfgZAS7pH5p4H0YvPAZTLh9iObtwb1rnQQh7OAwhesKzkea714cxnOWUni1HUcZb2bS6UdUno0/kHjgoDiPIdg==",
+      "type": "package",
+      "path": "lime.protocol.serialization.servicestack/0.7.28-beta",
+      "files": [
+        "lime.protocol.serialization.servicestack.0.7.28-beta.nupkg.sha512",
+        "lime.protocol.serialization.servicestack.nuspec"
       ]
     },
     "Lime.Transport.Tcp/0.8.53-beta": {
@@ -13435,6 +13478,8 @@
     ".NETCoreApp,Version=v2.0": [
       "Lime.Messaging >= 0.8.63-beta",
       "Lime.Protocol >= 0.8.63-beta",
+      "Lime.Protocol.Serialization >= 0.7.278",
+      "Lime.Protocol.Serialization.ServiceStack >= 0.7.28-beta",
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.3",
@@ -13491,6 +13536,14 @@
           "Lime.Protocol": {
             "target": "Package",
             "version": "[0.8.63-beta, )"
+          },
+          "Lime.Protocol.Serialization": {
+            "target": "Package",
+            "version": "[0.7.278, )"
+          },
+          "Lime.Protocol.Serialization.ServiceStack": {
+            "target": "Package",
+            "version": "[0.7.28-beta, )"
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",

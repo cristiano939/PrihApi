@@ -8,3 +8,4 @@ C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.Assemb
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.AssemblyInfo.cs
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.dll
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.pdb
+C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.csprojAssemblyReference.cache
