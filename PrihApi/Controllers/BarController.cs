@@ -40,7 +40,7 @@ namespace PrihApi.Controllers
                     Long = double.Parse(barRequest.Long.Replace(",", "."), CultureInfo.InvariantCulture),
                     Name = barRequest.Name
                 };
-                return Ok(barData);
+                
                 _prihDB.InsertBar(barData);
                 return new StatusCodeResult(200);
             }
