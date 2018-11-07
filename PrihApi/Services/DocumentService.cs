@@ -47,7 +47,7 @@ namespace PrihApi.Services
                             {
                                 Value = new WebLink
                                 {
-                                    Title = "Como Chegar _ UPDATED",
+                                    Title = "Como Chegar",
                                     Uri = new Uri(string.Format(_configuration["gmapsconfig:mapsdir"],bar.Lat,bar.Long,myLat,myLong))
                                 }
                             }
