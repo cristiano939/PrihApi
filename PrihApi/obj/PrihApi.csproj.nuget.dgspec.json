@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetosGIT\\PrihApi\\PrihApi\\PrihApi.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetosGIT\\PrihApi\\PrihApi\\PrihApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetosGIT\\PrihApi\\PrihApi\\PrihApi.csproj",
+        "projectName": "PrihApi",
+        "projectPath": "C:\\ProjetosGIT\\PrihApi\\PrihApi\\PrihApi.csproj",
+        "packagesPath": "C:\\Users\\ZUPPER\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetosGIT\\PrihApi\\PrihApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ZUPPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://abcbrasil.pkgs.visualstudio.com/_packaging/ABCBrasil.Core/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Lime.Messaging": {
+              "target": "Package",
+              "version": "[0.8.63-beta, )"
+            },
+            "Lime.Protocol": {
+              "target": "Package",
+              "version": "[0.8.63-beta, )"
+            },
+            "Lime.Protocol.Serialization": {
+              "target": "Package",
+              "version": "[0.7.278, )"
+            },
+            "Lime.Protocol.Serialization.ServiceStack": {
+              "target": "Package",
+              "version": "[0.7.28-beta, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Take.Blip.Client": {
+              "target": "Package",
+              "version": "[0.5.182-beta, )"
+            },
+            "Take.ContentProvider.Client": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

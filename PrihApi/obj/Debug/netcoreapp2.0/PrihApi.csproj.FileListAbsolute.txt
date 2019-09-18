@@ -9,3 +9,14 @@ C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.Assemb
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.dll
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.pdb
 C:\Cristiano\PROJETOS GIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.csprojAssemblyReference.cache
+C:\ProjetosGIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.deps.json
+C:\ProjetosGIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.runtimeconfig.json
+C:\ProjetosGIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.runtimeconfig.dev.json
+C:\ProjetosGIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.dll
+C:\ProjetosGIT\PrihApi\PrihApi\bin\Debug\netcoreapp2.0\PrihApi.pdb
+C:\ProjetosGIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.csprojAssemblyReference.cache
+C:\ProjetosGIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.csproj.CoreCompileInputs.cache
+C:\ProjetosGIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.AssemblyInfoInputs.cache
+C:\ProjetosGIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.AssemblyInfo.cs
+C:\ProjetosGIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.dll
+C:\ProjetosGIT\PrihApi\PrihApi\obj\Debug\netcoreapp2.0\PrihApi.pdb

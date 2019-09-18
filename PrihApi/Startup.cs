@@ -39,6 +39,9 @@ namespace PrihApi
             services.AddSingleton<IPrihDBManager, PrihDBManager>();
             services.AddSingleton<IDocumentService, DocumentService>();
             services.AddSingleton<IGMapsClient, GMapsClient>();
+            services.AddSingleton<IBeerDiscountServices, BeerDiscountServices>();
+            services.AddSingleton<IBeerDiscountDBManager, BeerDiscountDBManager>();
+
 
             //Takenet.Iris.Messaging.Registrator.RegisterDocuments();
 
