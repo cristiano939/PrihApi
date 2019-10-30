@@ -9,7 +9,7 @@
     <PackageReference Include="Lime.Protocol" Version="0.8.63-beta" />
     <PackageReference Include="Lime.Protocol.Serialization" Version="0.7.278" />
     <PackageReference Include="Lime.Protocol.Serialization.ServiceStack" Version="0.7.28-beta" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Take.Blip.Client" Version="0.5.182-beta" />
